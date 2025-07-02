@@ -1,25 +1,55 @@
 *{
     margin: 0px;
-    padding: px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
 
 li{
     list-style: none;
-    
+    display: inline-block;
+    margin-left: 25px;
+    height: 5vh;
+    width: 100px;
+    text-align: center;
 }
 
 .header{
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
+    border-radius: 1%;
     align-content: center;
-    ;
+    text-align: center;
     height: 75px;
-}
-#one>li{
-    
-    display: inline-flex;
-    justify-content: space-evenly;
+    background-color: rgb(150, 198, 240);
+    position: sticky;
+    top:0;
 }
 
 #one{
     align-items: end;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.content{
+  height: 45vh;
+  width: 100vw;
+  background-color: rgb(1, 65, 121);
+}
+.two{
+    
+    width: 20vw;
+    background-color: rgb(228, 136, 136);
+    padding: 25px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+p{
+    font-size: 30px;
+}
+
+.three{
+    width: 50vw;
+    padding-left: 30vw;
+    background-color: white;
 }
