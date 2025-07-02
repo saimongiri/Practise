@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: px;
+}
+
+li{
+    list-style: none;
+    
+}
+
+.header{
+    border: 2px dashed red;
+    align-content: center;
+    ;
+    height: 75px;
+}
+#one>li{
+    
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+#one{
+    align-items: end;
+}
