@@ -28,7 +28,6 @@ li{
 #one{
     align-items: end;
     display: inline-flex;
-    justify-content: space-evenly;
 }
 
 .content{
@@ -37,15 +36,17 @@ li{
   background-color: rgb(1, 65, 121);
 }
 .two{
-    
-    width: 20vw;
-    background-color: rgb(228, 136, 136);
+    height: 39vh;
+    width: 60vw;
+    background-color: rgb(143, 45, 45);
     padding: 25px;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
 }
-p{
+.intro{
     font-size: 30px;
+    color: rgb(234, 234, 240);
+
 }
 
 .three{
